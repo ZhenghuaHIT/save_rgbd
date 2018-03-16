@@ -1,0 +1,4 @@
+<launch>
+<node pkg="save_rgbd" type="save_rgb" name="rgb2"></node>
+<node pkg="save_rgbd" type="save_depth" name="depth2"></node>
+</launch>
