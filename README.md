@@ -17,7 +17,8 @@ I use [ROS](http://www.ros.org/).
 **Kinect v2**  
 Kinect v2 only supports **USB 3.0** and **OpenCV 2**  
 I use [iai-kinect2](https://github.com/code-iai/iai_kinect2).  
-I use [libfreenect2](https://github.com/OpenKinect/libfreenect2).  
+I use [libfreenect2](https://github.com/OpenKinect/libfreenect2).    
+
 **Kinect v1**  
 I use openni_launch
 ```
@@ -64,7 +65,7 @@ image_transport::Subscriber sub = it.subscribe("camera/depth_registered/image", 
 **roslaunch openni_launch openni.launch
 image_transport::Subscriber sub = it.subscribe("/camera/depth_registered/sw_registered/image_rect", 1000, imageCallBack);
 ```
-3. Create the **depth** and **rgb** folders under the save file directory **rgbddata**  
+3. Create the **/depth** and **/rgb** folders under the save file directory **rgbddata**  
 ```
 cd /home/hou/data/rgbddata
 mkdir rgb
