@@ -69,6 +69,7 @@ image_transport::Subscriber sub = it.subscribe("/camera/depth_registered/sw_regi
 ```
 cd /home/hou/data/rgbddata
 mkdir rgb
+cd ..
 mkdir depth
 ```
 4. Star **ROS**
