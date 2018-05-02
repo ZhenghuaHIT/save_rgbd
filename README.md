@@ -8,7 +8,7 @@ Only Myself and My junior of laboratory.
 
 # 2. Prerequisites
 ## C++11 or C++0x Compiler
-I use the new thread and chrono functionalities of C++11.
+I use the new thread and chrono functionalities of C++11. 
 ## OpenCV
 I use [OpenCV](http://opencv.org).
 ## ROS
